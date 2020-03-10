@@ -2,7 +2,7 @@ CMAKE_MINIMUM_REQUIRED(VERSION 2.8 FATAL_ERROR)
 CMAKE_POLICY(VERSION 2.8)
 
 SET(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake" "${CMAKE_MODULE_PATH}")
-SET(Torch_DIR /usr/local/lib/python3.6/dist-packages/torch/share/cmake/Torch/TorchConfig.cmake)
+SET(Torch_DIR /usr/local/lib/python3.6/dist-packages/torch/share/cmake/Torch)
 FIND_PACKAGE(Torch REQUIRED)
 
 # Flags
